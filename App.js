@@ -8,7 +8,7 @@ export default function App() {
   const [No, setNo] = useState(0);
   const [No2, setNo2] = useState(0);
   const [msg, setMsg] = useState('');
-  const [ermsg, setermsgErrorMessage] = useState('');
+  const [ermsg, seterMessage] = useState('');
 
 
   function getSum() {
